@@ -2,6 +2,7 @@ import java.util.StringTokenizer;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 
 public class Main {
@@ -19,18 +20,26 @@ class Backjoon10951 {
         print();        //테스트 케이스 출력
     }
 
+    public static void input(){                                         //Scanner.hasNext() 가 BufferedReader.readLine() 보다 성능이 좋지 않았음
+        Scanner sc = new Scanner(System.in);
 
-    public static void input() throws IOException{                              //예외처리용 "throws IOException" 필요
+        while(sc.hasNextLine()){
+            test[count++] = sc.nextLine();
+        }
+        sc.close();
+    }
+
+    /*public static void input() throws IOException{                              //예외처리용 "throws IOException" 필요
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String temp;
 
-        while((temp = br.readLine()) != null){                          //Scanner.hasNExtLine() -> 입력이 있을 때까지 기다렸다가 true를 반환
-            test[count] = temp;
+        while((temp = br.readLine()) != null){                          //Scanner.hasNExtLine() & BufferedReader.readLind() -> 입력이 있을 때까지 기다렸다가 true를 반환
+            test[count] = temp;                                         // >> ctrl + z 등으로 입력 중단(EOF) 명령을 입력해 줘야 함 >> IDE 환경에서 실행했을 때, 정상적인 결과를 얻기 힘듦
             count++;
         }
 
         br.close();
-    }
+    }*/
 
     public static void calc(){
         int tempA, tempB;
