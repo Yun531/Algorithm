@@ -26,7 +26,7 @@ class Backjoon1546 implements Algorithm {
 
     public void input(){
         // 첫 줄에 과목 개수 N
-        // 둘째 줄에 각 점수(정수)
+        // 둘째 줄에 각 점수
         Scanner sc = new Scanner(System.in);
 
         count = sc.nextInt();
@@ -42,7 +42,7 @@ class Backjoon1546 implements Algorithm {
     public double calc(){
         double max = calcMax();    //f: 최댓값 계산
         manipulateScore(max);      //f: 조작 점수 계산
-        return calcAVG();              //f: 평균 계산
+        return calcAVG();          //f: 평균 계산
 
     }
 
