@@ -41,3 +41,12 @@ class Backjoon11718 implements Algorithm {
         }
     }
 }
+
+//		Scanner sc = new Scanner(System.in);                인터넷의 간단한 해답
+//		                                                    굳이 배열을 선언하고 사용하지 않아도 됨
+//		while(sc.hasNextLine()) {
+//			String str = sc.nextLine();
+//			
+//			System.out.println(str);
+//		}
+//		sc.close();
