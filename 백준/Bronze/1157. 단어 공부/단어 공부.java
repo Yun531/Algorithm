@@ -73,4 +73,20 @@ class Backjoon1157 implements Algorithm{
             System.out.println((char)(maxIndex+65));
         }
     }
+//    int[] count = new int[26];
+//    for (int i = 0; i < str.length(); i++) {
+//        int num = str.charAt(i) -'A' ;
+//        count[num]++;
+//    }
+//
+//    int max = 0;
+//    char answer = '?';
+//    for (int i = 0; i < count.length; i++) {
+//        if(max < count[i]){
+//            max = count[i];
+//            answer = (char)(i+'A');
+//        } else if (max == count[i]){              //해당 방식으로 최댓값을 구하면서 중복 최댓값을 처리할 수 있음
+//            answer = '?';
+//        }
+//    }    
 }
