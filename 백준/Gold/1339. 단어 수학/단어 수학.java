@@ -3,11 +3,11 @@ import java.lang.Math;
 
 public class Main {
     public static void main(String[] args) {
-        Backjoon1339.solution();
+        Beakjoon1339.solution();
     }
 }
 
-class Backjoon1339 {
+class Beakjoon1339 {
 
     public static void solution(){
         Scanner s = new Scanner(System.in);
