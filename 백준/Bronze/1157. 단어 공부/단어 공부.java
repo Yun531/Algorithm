@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Algorithm algorithm = new Backjoon1157();
+        Algorithm algorithm = new Beakjoon1157();
         algorithm.solution();
     }
 }
@@ -11,7 +11,7 @@ interface Algorithm {
     public void solution();
 
 }
-class Backjoon1157 implements Algorithm{
+class Beakjoon1157 implements Algorithm{
     String s;
     int[] text = new int[26];
 
