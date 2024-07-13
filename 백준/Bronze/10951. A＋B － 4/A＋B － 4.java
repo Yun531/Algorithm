@@ -7,10 +7,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Backjoon10951.solution();
+        Beakjoon10951.solution();
     }
 }
-class Backjoon10951 {
+class Beakjoon10951 {
     static int count = 0;
     static String[] test = new String[100];
 
