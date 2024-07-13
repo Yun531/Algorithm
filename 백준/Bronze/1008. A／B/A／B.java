@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Backjoon1008.solution();
+        Beakjoon1008.solution();
     }
 }
 
-class Backjoon1008 {
+class Beakjoon1008 {
     static double A, B;
     public static void solution(){
         input();
