@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Backjoon2525.solution();
+        Beakjoon2525.solution();
     }
 }
 
-class Backjoon2525 {
+class Beakjoon2525 {
     static int currentTime_h, currentTime_m, cookTime;
     public static void solution(){
         input();        //현재 시각, 요리 시간 입력
