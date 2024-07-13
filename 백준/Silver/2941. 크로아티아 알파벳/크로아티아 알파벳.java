@@ -11,7 +11,7 @@ interface Algorithm {
     public void solution();
 
 }
-class Backjoon2941 implements Algorithm {
+class Beakjoon2941 implements Algorithm {
     String test;
 
     public void solution(){
