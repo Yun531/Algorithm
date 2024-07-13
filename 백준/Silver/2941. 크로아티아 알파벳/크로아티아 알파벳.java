@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Algorithm algorithm = new Backjoon2941();
+        Algorithm algorithm = new Beakjoon2941();
         algorithm.solution();
     }
 }
