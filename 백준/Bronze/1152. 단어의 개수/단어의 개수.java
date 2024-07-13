@@ -3,7 +3,7 @@ import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) {
-        Algorithm algorithm = new Backjoon1152();
+        Algorithm algorithm = new Beakjoon1152();
         algorithm.solution();
     }
 }
@@ -12,7 +12,7 @@ interface Algorithm {
     public void solution();
 
 }
-class Backjoon1152 implements Algorithm{
+class Beakjoon1152 implements Algorithm{
     public void solution(){
         String in = input();
         int count = calc(in);
