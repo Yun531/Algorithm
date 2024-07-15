@@ -44,7 +44,7 @@ class Baekjoon1316 implements Algorithm {
         return count;
     }
     public int calcCont(String s){
-        int[] character = new int[26];
+        int[] character = new int[26];                  // 불리안 배열 사용하는게 깔끔할듯
         int temp = -1;
 
         for(int i = 0; i < s.length(); i++){
