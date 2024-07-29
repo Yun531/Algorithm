@@ -2,6 +2,21 @@
 
 [문제 링크](https://www.acmicpc.net/problem/24267) 
 
+### 버퍼 리더 or 버퍼 라이터 사용법
+
+[버퍼 링크](https://coding-factory.tistory.com/251)
+
+### 알고리즘의 수행 시간 1 ~ 6 해설
+
+[ ( 1 ) ](https://velog.io/@gayeong39/%EB%B0%B1%EC%A4%80-24262-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%88%98%EC%97%85-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%EC%88%98%ED%96%89-%EC%8B%9C%EA%B0%841)
+[ ( 2 ) ](https://velog.io/@gayeong39/%EB%B0%B1%EC%A4%80-24263-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%88%98%EC%97%85-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%88%98%ED%96%89-%EC%8B%9C%EA%B0%842)
+[ ( 3 ) ](https://velog.io/@gayeong39/%EB%B0%B1%EC%A4%80-24264-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%88%98%EC%97%85-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%88%98%ED%96%89-%EC%8B%9C%EA%B0%843)
+[ ( 4 ) ](https://velog.io/@gayeong39/%EB%B0%B1%EC%A4%80-24265-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%88%98%EC%97%85-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+[ ( 5 ) ](https://velog.io/@gayeong39/%EB%B0%B1%EC%A4%80-24266-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%88%98%EC%97%85-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%EC%88%98%ED%96%89-%EC%8B%9C%EA%B0%845)
+[ ( 6-1 ) ](https://dokuny-devlog.tistory.com/93)
+[ ( 6-2 ) ](https://yester-today.tistory.com/7)
+
+
 ### 성능 요약
 
 메모리: 15952 KB, 시간: 148 ms
