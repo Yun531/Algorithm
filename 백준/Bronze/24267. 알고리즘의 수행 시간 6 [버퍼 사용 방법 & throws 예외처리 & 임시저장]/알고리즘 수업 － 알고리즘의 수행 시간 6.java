@@ -16,7 +16,7 @@ class Baekjoon24267 implements Algorithm {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        long n = Long.parseLong(br.readLine());
+        long n = Long.parseLong(br.readLine());             //int 형으로 형변환 하면 line33 에서 오버플로 됨
 
 //        int count = 0;
 //
@@ -29,9 +29,9 @@ class Baekjoon24267 implements Algorithm {
 //        }
 
         br.close();
-
+                            // *계산식에 대한 값을 임시저장 할 때, 임시저장의 자료형은 *원형의 자료형*을 따라간다.
         bw.write((n*(n-1)*(n-2)/6)+"\n" + 3);           //쓰기 + 출력
-        bw.flush();                                         //후처리 > 버퍼에 남아있는 모든 내용물 출력
+        bw.flush();                                     //후처리 > 버퍼에 남아있는 모든 내용물 출력
         bw.close();
     }
 
