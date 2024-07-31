@@ -2,6 +2,21 @@
 
 [문제 링크](https://www.acmicpc.net/problem/2751) 
 
+### 퀵 정렬
+[ 퀵 정렬 ](https://st-lab.tistory.com/250)
+
+### 힙 정렬
+[ 힙 정렬 ](https://datamoney.tistory.com/240)
+
+
+### 병합 정렬 
+[ 병합 정렬 ](https://datamoney.tistory.com/238)
+
+
+### ArrayList 정렬하기 (오름*내림 차순, 사용자 정의)
+[ ArrayList 정렬 ](https://hianna.tistory.com/569)
+
+
 ### 성능 요약
 
 메모리: 113064 KB, 시간: 1016 ms
