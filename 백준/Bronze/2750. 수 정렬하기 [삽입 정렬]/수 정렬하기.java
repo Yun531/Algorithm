@@ -44,7 +44,7 @@ class Baekjoon2750 implements Algorithm{
 //            temp = numbers[i];
 //            for(int k = i-1; k > -1; k--){
 //                if(temp > numbers[k]){
-//                    numbers[k+1] = temp;                      //temp 값이 가장 작은 숫자인 경우, 해당 숫자를 저장하는 코드가 작동되지 않음
+//                    numbers[k+1] = temp;                          //temp 값이 가장 작은 숫자인 경우, 해당 숫자를 저장하는 코드가 작동되지 않음
 //                    break;
 //                }
 //                numbers[k+1] = numbers[k];
@@ -53,13 +53,13 @@ class Baekjoon2750 implements Algorithm{
 //    }
     public void insertionSort() {
         int temp;
-        for (int i = 1; i < numbers.length; i++) {
+        for (int i = 1; i < numbers.length; i++) {                  //삽입정렬 n회(n 단계) 반복
             temp = numbers[i];
             int k;
-            for (k = i - 1; k >= 0 && numbers[k] > temp; k--) {
+            for (k = i - 1; k >= 0 && numbers[k] > temp; k--) {     //삽입정렬을 진행할 target의 왼쪽으로 이동하면서 비교를 진행
                 numbers[k + 1] = numbers[k];
             }
-            numbers[k + 1] = temp;                              // 올바른 위치에 temp를 삽입
+            numbers[k + 1] = temp;                                  //올바른 위치에 temp를 삽입
         }
     }
 
