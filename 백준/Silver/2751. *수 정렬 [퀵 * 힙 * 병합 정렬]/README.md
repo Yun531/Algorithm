@@ -15,7 +15,7 @@
 
 ### ArrayList 정렬하기 (오름*내림 차순, 사용자 정의)
 [ ArrayList 정렬 ](https://hianna.tistory.com/569)  <br>
-- compare : <br>
+- compare : 기본적으로 오름차순 정렬 <br>
    - 양수 > data1을 먼저 출력 <br>
    - 음수 > data2을 먼저 출력 <br>
    - [이차원 배열 compare (Comparator)](https://ifuwanna.tistory.com/328) <br>
