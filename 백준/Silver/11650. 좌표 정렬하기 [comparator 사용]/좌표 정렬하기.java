@@ -46,8 +46,8 @@ class Baekjoon11650 implements Algorithm {
 
     public void calc(){
         Arrays.sort(data, new Comparator<int[]>() {
-            public int compare(int[] data1, int[] data2){       //return : 양수 >> data1을 앞쪽에 출력(위치)시킨다.
-                if(data1[0] == data2[0]){                       //return : 음수 >> data2을 앞쪽에 출력(위치)시킨다.
+            public int compare(int[] data1, int[] data2){       //오름차순 정렬 : `return data1 - data2;
+                if(data1[0] == data2[0]){                       //내림차순 정렬 : `return data2 - data1;
                     return data1[1] - data2[1];
                 }
                 else{
