@@ -16,6 +16,7 @@
 ### ArrayList 정렬하기 (오름*내림 차순, 사용자 정의)
 [ ArrayList 정렬 ](https://hianna.tistory.com/569)  <br>
 - compare(data1, data2) : <br>
+   - return 값이 양수 이면 data1과 data2의 위치를 변경한다.
    - 오름차순 정렬 : `return data1 - data2;`  <br>
    - 내림차순 정렬 : `return data2 - data1;`  <br>
    - [이차원 배열 compare (Comparator)](https://ifuwanna.tistory.com/328) <br>
