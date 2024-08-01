@@ -15,7 +15,7 @@
 
 ### ArrayList 정렬하기 (오름*내림 차순, 사용자 정의)
 [ ArrayList 정렬 ](https://hianna.tistory.com/569)  <br>
-[ Arrays.sort() || ArrayList.sort() ](https://80000coding.oopy.io/21cb57a3-681b-404d-a4ac-8ab0e7289bc0)
+[ Arrays.sort() / Collections.sort() ](https://80000coding.oopy.io/21cb57a3-681b-404d-a4ac-8ab0e7289bc0)
 
 
 ### 성능 요약
