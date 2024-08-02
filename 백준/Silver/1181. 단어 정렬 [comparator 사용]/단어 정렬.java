@@ -38,6 +38,7 @@ class Baekjoon1181 implements Algorithm {
                 char a, b;
 
                 if (A.length() == B.length()) {                       //문자열 길이 같은 경우 > 사전순 오름차순
+                //  reuturn A.compare(B);                             //String.compare() 함수 : 문자열 사전순 정렬 함수
                     for (int i = 0; i < A.length(); i++) {
                         a = A.charAt(i);
                         b = B.charAt(i);
