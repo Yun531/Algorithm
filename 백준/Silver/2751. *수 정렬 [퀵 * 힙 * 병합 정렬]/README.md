@@ -2,15 +2,10 @@
 
 [문제 링크](https://www.acmicpc.net/problem/2751) 
 
-### 퀵 정렬
-[ 퀵 정렬 ](https://st-lab.tistory.com/250)
-
-### 힙 정렬
-[ 힙 정렬 ](https://datamoney.tistory.com/240)
-
-
-### 병합 정렬 
-[ 병합 정렬 ](https://datamoney.tistory.com/238)
+### 퀵 정렬 / 힙 정렬 / 병합 정렬 
+[ 퀵 정렬 ](https://st-lab.tistory.com/250) <br>
+[ 힙 정렬 ](https://datamoney.tistory.com/240) <br>
+[ 병합 정렬 ](https://datamoney.tistory.com/238) <br>
 
 
 ### ArrayList 정렬하기 (오름*내림 차순, 사용자 정의)
@@ -20,6 +15,10 @@
    - 오름차순 정렬 : `return data1 - data2;`  <br>
    - 내림차순 정렬 : `return data2 - data1;`  <br>
    - [이차원 배열 compare (Comparator)](https://ifuwanna.tistory.com/328) <br>
+
+- 문자열 사전순으로 정렬 : str1.compareTo(str2) <br>
+   - str1 이 큰 경우 1, str1 이 작은 경우 -1 리턴
+   - compare() 에서 return str1.compareTo(str2); 식으롤 사용하여 문자열을 사전순으로 정렬할 수 있음
  
 [ Arrays.sort() / Collections.sort() ](https://80000coding.oopy.io/21cb57a3-681b-404d-a4ac-8ab0e7289bc0)
 
