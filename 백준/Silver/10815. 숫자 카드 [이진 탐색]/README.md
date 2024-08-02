@@ -2,6 +2,10 @@
 
 [문제 링크](https://www.acmicpc.net/problem/10815) 
 
+### 이진 탐색
+
+[ 이진 탐색 ](https://adjh54.tistory.com/187#google_vignette)
+
 ### 성능 요약
 
 메모리: 147648 KB, 시간: 1012 ms
