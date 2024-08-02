@@ -2,6 +2,13 @@
 
 [문제 링크](https://www.acmicpc.net/problem/18870) 
 
+### HashMap
+
+-키(key)와 값(value)가 짝을 이루어 저장되는 자료구조
+-특정 데이터의 저장위치를 해시함수를 통해 바로 알 수 있기 때문에 데이터의 추가, 삭제, 특히 검색이 빠르다는 장점이 있다.
+-키(key)를 통해서만 검색 가능하며, 키(key)는 중복이 불가능 함
+[ HashMap ](https://kadosholy.tistory.com/120)
+
 ### 성능 요약
 
 메모리: 225044 KB, 시간: 1700 ms
