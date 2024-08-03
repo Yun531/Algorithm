@@ -9,6 +9,15 @@
 -키(key)를 통해서만 검색 가능하며, 키(key)는 중복이 불가능 함 <br>
 [ HashMap ](https://kadosholy.tistory.com/120)
 
+
+### ArrayList
+
+-크기가 고정되는 배열과 다르게 부족한 공간을 자동으로 조정해주는 선형리스트 <br>
+-배열은 데이터를 추가, 삭제 시 반복문으로 인덱스를 한칸씩 밀거나 당기는 식으로 공간을 조절하지만 ArrayList는 이 과정을 자동으로 처리 <br>
+[ ArrayList ](https://m.blog.naver.com/fbfbf1/222636992391)
+
+![image](https://github.com/user-attachments/assets/5c7d50d2-267d-4336-a2f1-9051f6405986)
+
 ### 성능 요약
 
 메모리: 225044 KB, 시간: 1700 ms
