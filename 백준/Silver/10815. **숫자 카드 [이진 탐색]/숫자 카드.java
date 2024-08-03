@@ -42,43 +42,43 @@ class Baekjoon10815 implements Algorithm {
 
 
 
-    public void calc() throws IOException{                                         //이진 탐색 코드
-        int[] holds;
-        int result;
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    // public void calc() throws IOException{                                         //이진 탐색 코드
+    //     int[] holds;
+    //     int result;
+    //     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        Arrays.sort(holds);                                                         //이진 탐색을 하기 위해서는 목표 배열에 정렬되어 있어야 함
+    //     Arrays.sort(holds);                                                         //이진 탐색을 하기 위해서는 목표 배열에 정렬되어 있어야 함
 
-        for(int i = 0; i < this.count; i++){
-            result = binarySearch(Integer.parseInt(this.st.nextToken()));
-            bw.write(result + " ");
-        }
+    //     for(int i = 0; i < this.count; i++){
+    //         result = binarySearch(Integer.parseInt(this.st.nextToken()));
+    //         bw.write(result + " ");
+    //     }
 
-        bw.flush();
-        bw.close();
-    }
-    public int binarySearch(int target){
-        int pointLeft = 0;
-        int pointRight = holds.length-1;
+    //     bw.flush();
+    //     bw.close();
+    // }
+    // public int binarySearch(int target){
+    //     int pointLeft = 0;
+    //     int pointRight = holds.length-1;
 
-        while(pointLeft <= pointRight){
-            int pointMid = pointLeft + (pointRight-pointLeft)/2;
-            int mid = holds[pointMid];
+    //     while(pointLeft <= pointRight){
+    //         int pointMid = pointLeft + (pointRight-pointLeft)/2;
+    //         int mid = holds[pointMid];
 
-            if(target > mid){
-                pointLeft = mid+1;
-            }
-            else if(target < mid){
-                pointRight = mid-1;
-            }
-            else{
-                return 1;                               //target과 동일한 값을 정렬된 배열에서 찾은 경우
-            }
-        }
+    //         if(target > mid){
+    //             pointLeft = mid+1;
+    //         }
+    //         else if(target < mid){
+    //             pointRight = mid-1;
+    //         }
+    //         else{
+    //             return 1;                               //target과 동일한 값을 정렬된 배열에서 찾은 경우
+    //         }
+    //     }
 
-        return 0;                                       //target과 동일한 값을 정렬된 배열에서 찾지 못한 경우
+    //     return 0;                                       //target과 동일한 값을 정렬된 배열에서 찾지 못한 경우
 
-    }
+    // }
 
 
     public void print() throws IOException{
