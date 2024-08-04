@@ -16,7 +16,7 @@ interface Algorithm{
     public void solution() throws IOException;
 }
 class Baekjoon7785 implements Algorithm {
-    ArrayList<String> workers;                  //어레이리스트 사용 시, 시간초과가 가능하다 >> 해쉬 셋 사용
+    ArrayList<String> workers;                                     //어레이리스트 사용 시, 시간초과가 가능하다 >> 해쉬 셋 사용
     HashSet<String> workersSet = new HashSet<>();
 
     public void solution() throws IOException{
@@ -48,7 +48,7 @@ class Baekjoon7785 implements Algorithm {
         String worker = st.nextToken();
         String temp = st.nextToken();
 
-        if(temp.equals("enter")){                           //문자열 비교할때는 str.equals() 함수를 사용해야 함
+        if(temp.equals("enter")){                               //문자열 비교할때는 str.equals() 함수를 사용해야 함
             workersSet.add(worker);
         }
         else if(temp.equals("leave")){
