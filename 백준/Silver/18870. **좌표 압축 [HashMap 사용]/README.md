@@ -16,13 +16,16 @@
 -배열은 데이터를 추가, 삭제 시 반복문으로 인덱스를 한칸씩 밀거나 당기는 식으로 공간을 조절하지만 ArrayList는 이 과정을 자동으로 처리 <br>
 [ ArrayList ](https://m.blog.naver.com/fbfbf1/222636992391)
 
-![image](https://github.com/user-attachments/assets/5c7d50d2-267d-4336-a2f1-9051f6405986)
-
 
 ### HashSet && ArrayList 성능비교
 
 -ArrayList의 경우 삽입&삭제의 경우 O(n)의 시간이 요구된다.
 [ 성능비교 ](https://hanul-dev.netlify.app/java/list,-set-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%93%B0%EB%8A%94-%EA%B2%83%EC%9D%B4-%EC%9C%A0%EB%A6%AC%ED%95%9C%EA%B0%80/)
+
+
+
+![image](https://github.com/user-attachments/assets/5c7d50d2-267d-4336-a2f1-9051f6405986)
+
 
 ### 성능 요약
 
