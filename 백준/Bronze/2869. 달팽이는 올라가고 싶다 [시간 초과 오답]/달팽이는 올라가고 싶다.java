@@ -34,7 +34,7 @@ class Baekjoon2869 implements Algorithm{
 
 //    public int calc(){
 //        int date = 1;
-//        height -= speedP;                   첫날 낮에 정상을 달성할 가능성 때문에 따로 처리
+//        height -= speedP;                   첫날 낮에 정상을 달성할 가능성 때문에 따로 처리 
 //
 //        while(height > 0){                  해당 방법은 시간제한 때문에 문제가 실패하게 된다.
 //            date++;
@@ -58,3 +58,4 @@ class Baekjoon2869 implements Algorithm{
         System.out.println(date);
     }
 }
+
