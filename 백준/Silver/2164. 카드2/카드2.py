@@ -11,17 +11,24 @@ def sol():
     for i in range(1,N+1):
         deck.append(i)
 
-    while True:
-        if len(deck) == 1:
-            print(deck[0])
-            break
-        else:
-            deck.popleft()
+    # while True:                  # 가능은 한데 지저분함
+    #     if len(deck) == 1:
+    #         print(deck[0])
+    #         break
+    #     else:
+    #         deck.popleft()
+    # 
+    #     if len(deck) == 1:
+    #         print(deck[0])
+    #         break
+    #     else:
+    #         deck.append(deck.popleft())
 
-        if len(deck) == 1:
-            print(deck[0])
-            break
-        else:
-            deck.append(deck.popleft())
+    while (len(deck) > 1):
+        deck.popleft()
+        move_num = deck.popleft()
+        deck.append(move_num)
+
+    print(deck[0])
 
 sol()
