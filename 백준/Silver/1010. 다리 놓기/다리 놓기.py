@@ -4,7 +4,7 @@ import sys
 input = sys.stdin.readline
 
 def sol():
-    N = int(input())
+    N = int(input()) 
 
     for _ in range(N):
         vals = list(map(int, input().split()))
@@ -16,5 +16,6 @@ def fac(n):
     for i in range(1, n+1):
         result *= i
     return result
+
 
 sol()
