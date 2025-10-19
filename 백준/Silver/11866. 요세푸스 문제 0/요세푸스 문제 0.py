@@ -15,9 +15,10 @@ def sol():
     while len(que) != 1:
         for _ in range(data[1]-1):
             que.append(que.popleft())
-        result = result + str(que.popleft()) + ', '
+        result = result + str(que.popleft()) + ', ' 
 
     result = result + str(que.popleft()) + '>'
     print(result)
+
 
 sol()
