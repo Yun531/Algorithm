@@ -30,7 +30,7 @@ def sol():
 
 
 
-## sol_2
+## sol_2    (dp + dfs)
 N, M = map(int, input().strip().split())
 input_list = [list(map(int, input().strip().split())) for _ in range(N)]
 
@@ -57,5 +57,6 @@ def dfs(i, k):
 
 def sol_2():
     print(dfs(0,0))
+
 
 sol_2()
