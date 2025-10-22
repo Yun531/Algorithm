@@ -1,7 +1,7 @@
 # https://www.acmicpc.net/problem/11478
 
 import sys
-input = sys.stdin.readline
+input = sys.stdin.readline  
 
 def sol():
     string = str(input().strip())
@@ -14,5 +14,6 @@ def sol():
 
     result = set(memo)
     print(len(result))
+
 
 sol()
