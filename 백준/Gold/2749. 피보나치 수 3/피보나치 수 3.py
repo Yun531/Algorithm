@@ -4,7 +4,7 @@
 # https://yuuki0930.tistory.com/121
 
 # 피보나치 수열 성질들
-# https://www.acmicpc.net/blog/view/28
+# https://www.acmicpc.net/blog/view/28 
 
 import sys
 input = sys.stdin.readline
@@ -22,4 +22,5 @@ def sol():
     print(dp[N % period])
 
 sol()
+
     
